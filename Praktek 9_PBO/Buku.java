@@ -11,7 +11,6 @@ public class Buku {
         return idBuku;
     }
 
-    // test
     protected String getNamaBuku() {
         return namaBuku;
     }
