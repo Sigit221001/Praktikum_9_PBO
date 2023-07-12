@@ -37,6 +37,7 @@ public class Main {
         } finally {
             System.out.println("Program Selesai");
         }
+        peminjam1.doLogout();
 
     }
 }

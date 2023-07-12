@@ -1,15 +1,15 @@
 public class Denda {
-    private Peminjaman peminjam;
+    private Peminjaman peminjaman;
     private int hariTerlambat;
-    private static final int TARIF_DENDA = 10000;
+    private static final int TARIF_DENDA = 1000;
 
-    public Denda(Peminjaman peminjam, int hariTerlambat) {
-        this.peminjam = peminjam;
+    public Denda(Peminjaman peminjaman, int hariTerlambat) {
+        this.peminjaman = peminjaman;
         this.hariTerlambat = hariTerlambat;
     }
 
-    public Peminjaman getPeminjaman() {
-        return peminjam;
+    public Peminjaman getPeminjamanan() {
+        return peminjaman;
     }
 
     public int getTagihan() {
