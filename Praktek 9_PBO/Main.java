@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        // testpush
+        // testpush1
 
         Buku buku1 = new Buku("0001", "Pemrogramman Java");
         Buku buku2 = new Buku("0002", "Pemrogramman C++");
