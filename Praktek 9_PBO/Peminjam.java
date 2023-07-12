@@ -20,6 +20,10 @@ public abstract class Peminjam implements UserLogin {
         return isLogin;
     }
 
+    public boolean getAntiDenda() {
+        return isAntiDenda;
+    }
+
     public void addAntiDenda() {
         isAntiDenda = false;
     }
